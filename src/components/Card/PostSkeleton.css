@@ -1,0 +1,44 @@
+.post-skeleton {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    animation: skeleton-pulse 1.5s infinite;
+  }
+  
+  @keyframes skeleton-pulse {
+    0%, 100% {
+      opacity: 0.6;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+  
+  .post-skeleton .title,
+  .post-skeleton .body,
+  .post-skeleton .tags,
+  .post-skeleton .reactions {
+    width: 100%;
+    height: 15px;
+    background-color: #e0e0e0;
+    margin-bottom: 10px;
+  }
+  
+  .post-skeleton .title {
+    height: 20px;
+    width: 70%;
+    margin-bottom: 20px;
+  }
+  
+  .post-skeleton .tags {
+    height: 10px;
+    width: 60%;
+  }
+  
+  .post-skeleton .reactions {
+    width: 40%;
+    height: 8px;
+  }
+  
